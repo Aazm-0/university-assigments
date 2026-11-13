@@ -15,6 +15,8 @@ public class ClassRoom extends Observable {
      * It will probably be useful for a classroom to record which trainer it belongs to. You will need to ensure that the mutual references between a src.model.Trainer and their src.model.ClassRoom are set up correctly.
      */
     private Trainer owner;
+
+    
     /**
      * The list of time slots during the workshop, recording classes booked by participants with this trainer.
      */
